@@ -1,13 +1,13 @@
 $header-height: 30px;
 
-&.sina{
+.sina{
   background: image-url('social/sina.png') center no-repeat #FF204A;
   border: 1px solid #FF204A;
-  &:hover{
+  :hover{
       border: 1px solid darken(#24C1F6, 10%);
       }
   }
-  
+
 #header{
 	height: $header-height;
 	padding: 30px 0;
