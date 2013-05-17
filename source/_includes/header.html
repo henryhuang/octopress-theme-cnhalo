@@ -17,6 +17,9 @@
 </nav>
 <nav id="sub-nav" class="alignright">
 	<div class="social">
+		{% if site.sina_user %}
+		<a class="sina" href="http://www.weibo.com/{{ site.sina_user }}" title="微博">微博</a>
+		{% endif %}
 		{% if site.facebook_user %}
 		<a class="facebook" href="http://www.facebook.com/{{ site.facebook_user }}" title="Facebook">Facebook</a>
 		{% endif %}
