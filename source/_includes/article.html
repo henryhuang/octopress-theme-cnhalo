@@ -15,7 +15,11 @@
 {% else %}
 	<h2 class="title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h2>
 	<div class="entry-content">
-		<div id="category"></div>
+		{% if site.post_menu %}
+			<h2>目录</h2>
+			<div id="category">
+			</div>
+		{% endif %}
 		{{ content }}
 	</div>
 {% endif %}
