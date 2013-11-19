@@ -1,0 +1,17 @@
+#head_tags {
+  
+    border-bottom: 1px solid #DDDDDD;
+    height: 30px;
+    line-height: 30px;
+    padding: 5px 0;
+
+	.tags:before{
+		content: "\f02c";
+	    font: 1.3em/1.6em FontAwesome;
+	    left: 0;
+	}
+	a {
+	    color: #999999;
+    	transition: all 0.3s ease 0s;
+	}
+}

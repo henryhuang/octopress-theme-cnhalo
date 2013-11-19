@@ -1,0 +1,13 @@
+<div class="tags">
+
+	{% if site.index_tags %}
+
+		{% for index_tag in site.index_tags %}
+
+			<a class="category" href="{{site.root}}{{site.category_dir}}/{{index_tag}}/">{{index_tag}}</a>
+
+		{% endfor %}
+
+	{% endif %}
+
+</div>

@@ -13,3 +13,8 @@ Type the code below in terminal.
 
 Have problems when installing with zsh? Try `rake install\['cnhalo'\]` instead.
 
+---
+update log
+
+2013-11-19
+* add head tags

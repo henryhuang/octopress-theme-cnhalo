@@ -3,6 +3,10 @@
 
 <body>
 	<header id="header" class="inner">{% include header.html %}</header>
+	
+	<div id="head_tags" class="inner">
+		{% include head_tags.html %}
+	</div>
 	{% unless page.banner == false %}
 		{% include banner.html %}
 	{% endunless %}
