@@ -33,6 +33,7 @@
 	externalLinks(); // Delete or comment this line to disable opening external links in new window
 	appendCaption(); // Delete or comment this line to disable caption
 
+/**
 	var mobilenav = $('#mobile-nav');
 
 	$('html').click(function(){
@@ -59,4 +60,5 @@
 	}).click(function(e){
 		e.stopPropagation();
 	});
+*/
 })(jQuery);
